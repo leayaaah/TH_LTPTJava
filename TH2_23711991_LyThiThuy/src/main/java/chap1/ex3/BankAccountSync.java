@@ -4,7 +4,7 @@
  * Copyright (c) 2026 IUH. All rights reserved.
  */
 
-package org.example;
+package chap1.ex3;
 
 /*
  * @description:
