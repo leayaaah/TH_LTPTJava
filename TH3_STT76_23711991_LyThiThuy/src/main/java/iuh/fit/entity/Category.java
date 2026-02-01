@@ -31,5 +31,13 @@ public class Category {
     public String getName() {
         return name;
     }
+
+    public void setCategoryId(String categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
 

@@ -66,5 +66,16 @@ public class Quiz {
     public void setScore(int score) {
         this.score = score;
     }
+
+    @Override
+    public String toString() {
+        return "Quiz{" +
+                "quizId='" + quizId + '\'' +
+                ", name='" + name + '\'' +
+                ", score=" + score +
+                ", questions=" + questions +
+                ", category=" + category +
+                '}';
+    }
 }
 
