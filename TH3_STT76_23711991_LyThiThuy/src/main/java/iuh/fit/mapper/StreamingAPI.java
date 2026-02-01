@@ -80,7 +80,7 @@ public class StreamingAPI {
                             case "text" -> question.setText(value);
                             case "options" -> question.getOptions().add(value);
                             case "correct_answer" -> question.setCorrectAnswer(value);
-                            case "category" -> quiz.getCategory().setCategoryId(value);
+                            case "category_id" -> quiz.getCategory().setCategoryId(value);
                         }
                     }
                     case VALUE_NUMBER -> {
